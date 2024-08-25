@@ -8,6 +8,8 @@ module.exports = {
         secondary: '#64ffda',
         tartiary: '#8892B0',
         mixed: '#CCD6F6',
+        boxcolor: '#112240',
+        lightdark: '#233554',
       },
     },
   },

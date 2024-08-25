@@ -3,7 +3,7 @@ import EachProject from './EachProject';
 
 const ListProject = ({ projectLists }) => {
   return (
-    <div className="flex mt-12 flex-wrap justify-center">
+    <div className="flex mt-5 flex-wrap justify-center">
       {projectLists.map((project) => (
         <EachProject project={project} />
       ))}
