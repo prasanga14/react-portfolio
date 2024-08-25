@@ -7,13 +7,15 @@ const EachProject = ({ project }) => {
     <div className="flex border-2 flex-col h-96 items-center w-96 text-tartiary m-5 p-4">
       <div className="requiredButtons p-1 m-1 flex justify-around">
         <button className="m-2 text-xl">
-          <a href={project.github} target="_blank">
+          <a href={project.github} target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
         </button>
         {project.url && (
           <button className="m-2 text-xl">
-            <MdOpenInNew />
+            <a href={project.url} target="_blank" rel="noreferrer">
+              <MdOpenInNew />
+            </a>
           </button>
         )}
       </div>
